@@ -1,0 +1,19 @@
+print() fonksiyonu ekrana istenen değer yada değişkeni yazdırır.
+
+kullanım:
+
+print("ali")		
+-------------------------------------------------
+birden fazla str ifade
+print("-Naber?","İyilik")
+-------------------------------------------------
+x= 5
+print(x)		
+--------------------------------------------------
+print(1+1)		--> iki değerde sayısal tür		sonuç = 2
+print("1+1")		--> tek değer var o da yazı türünde	sonuç = 1+1
+
+KISACA TIRNAK VARSA MATEMATİKSEL İŞLEM YAPILMAZ
+
+
+

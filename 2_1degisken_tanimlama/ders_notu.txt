@@ -1,0 +1,64 @@
+Değişken adlandırma kuralları
+-------------------------------------------------
+* harf veya _ ile başlar (sayı ile başlayamaz)
+* A-z, 0-9, veya _ olabilir
+* Meyve		meyve	aynı değişken değil
+
+-------------------------------------------------
+Değer atama
+-------------------------------------------------
+x = 5
+y = 10
+meyve = "elma"
+isim = "Mahmut"
+
+-------------------------------------------------
+Çoklu değer atama
+-------------------------------------------------
+x,y = 5,10
+meyve,isim = "elma","Mahmut"
+
+sayi1, sayi2, sayi3 = 0
+
+-------------------------------------------------
+Veri türleri	!!!!!!!!!!
+-------------------------------------------------
+sözel tür		= str
+sayısal tür		= int, float
+sıralı tür (dizi)	= list, tuple, range
+doğru/yanlış tür	= bool
+-------------------------------------------------
+
+Veri türünü öğrenme
+-------------------------------------------------
+a = 5
+type(a)
+ekranda görmek için :	print(type(a))
+
+Örnek					türü
+-------------------------------------------------
+x="a"					str
+x=4					int
+x=4.0					float
+x=4.123					float
+x=["elma","armut","kiraz"]		list	--->değiştirileBİLİR	dizi (elma selma olur)
+x=("elma","armut","kiraz")		tuple	--->değiştirileMEZ	dizi (elma elmadır)
+x=range(6)				range	0,1,2,3,4,5 (sonradan döngülerde kullanılacak)
+x=True					bool
+-------------------------------------------------
+
+Tür Dönüşümü
+-------------------------------------------------
+x = str("Merhaba")
+x = int(4)
+x = float(4.123)
+x = list(("elma","armut","kiraz"))
+x = tuple(("elma","armut","kiraz"))
+x = range(6)
+x = bool(5)	-->True
+x = bool(0)	-->False
+
+
+
+ 
+

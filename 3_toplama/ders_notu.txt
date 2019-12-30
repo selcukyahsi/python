@@ -1,0 +1,11 @@
+Değişkenlerin değeri olmak zorunda
+-------------------------------------------------
+x	-->olmaz
+x=1	-->olur
+-------------------------------------------------
+print ile birden fazla değişken veya değer virgüllerle birleştirilip yazdırılabilir.
+
+Örnek:
+gs=5
+fb=0
+print("Maç sonucu Galatasaray=",gs,"fenerbahçe=",fb)
